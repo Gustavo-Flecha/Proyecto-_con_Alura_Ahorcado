@@ -1,0 +1,33 @@
+body{
+	background-color: #091c47;
+}
+button{
+    display:inline-flex;
+    position: relative;
+    bottom:-400px;
+    left: 40%;
+
+	color:rgb(28, 33, 71);
+	font-weight: bold;
+	padding: 12px 20px;
+	margin: 10px 10px;
+	font-size: 18px;
+	border-radius: 10px;
+	background-color: #666666;
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4),
+	inset 0px 2px 9px rgba(255,255,255,0.2),
+	inset 0 -2px 9px rgba(0,0,0,0.2);/*Auí se repite varias veces la sombra para que se note, pues con una sola no alcanza*/position: relative;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	text-align: center;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+button:hover {
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4),
+   inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+	color: black/*El color de las palabras del botón*/
+	}
+button:active {
+	box-shadow: 0 2px 0 #393939, 0px 4px 4px rgba(0,0,0,0.4), 
+	inset 0px 2px 5px rgba(0,0,0,0.2);
+	}
