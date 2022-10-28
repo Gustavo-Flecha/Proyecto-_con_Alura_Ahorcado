@@ -3,11 +3,6 @@ var tablero= document.getElementById("orca").getContext("2d");
 var palabrasSecretas="";
 var letra =[];
 var vidas = 8;
-//Botón refrescar
-let refresh = document.getElementById('refresh');
-refresh.addEventListener('click', _ => {
-            location.reload();
-})
 //PalabrasSecretas
 function escojerPalabrasSecretas(){
     palabrasSecretas = palabrass[Math.floor(Math.random() * palabrass.length)]
